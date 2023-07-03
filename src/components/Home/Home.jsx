@@ -1,23 +1,24 @@
-
-
-import './Home.css'
-import Social from './Social';
-import Date from './Date';
+import "./Home.css";
+import Social from "./Social";
+import Data from "./Data";
+import ScrollDown from "./ScrollDown";
 
 const Home = () => {
-    return (
-        <section className="home section" id='home'>
-            <div className="home__container container grid">
-                <div className="home__content grid">
-                    <Social></Social>
+  return (
+    <section className="home section" id="home">
+      <div className="home__container container grid">
+        <div className="home__content grid">
+          <Social></Social>
 
-                    <div className="home__img"></div>
+          <div className="home__img"></div>
 
-                    <Date></Date>
-                </div>
-            </div>
-        </section>
-    );
+          <Data></Data>
+        </div>
+
+        <ScrollDown></ScrollDown>
+      </div>
+    </section>
+  );
 };
 
 export default Home;

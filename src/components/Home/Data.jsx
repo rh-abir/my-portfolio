@@ -1,7 +1,7 @@
 const Date = () => {
   return (
-    <div className="home__date">
-      <h1 className="home__title">
+    <div className="home__data">
+      <div className="home__title">
         Rakibul Hasan
         <svg
           width="36"
@@ -77,7 +77,7 @@ const Date = () => {
             ></path>
           </svg>
         </a>
-      </h1>
+      </div>
     </div>
   );
 };
