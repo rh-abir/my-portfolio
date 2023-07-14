@@ -2,7 +2,7 @@ import "./About.css";
 
 import AboutImag from "../../assets/rakib.jpg";
 
-import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/rakibul-hasan.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -18,9 +18,9 @@ const About = () => {
           <Info></Info>
 
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface,
-            I have years of expreince and many clients are happy with the
-            projects carried out.
+            Frontend developer, I create web-site with <span className="text-keywords">MERN</span> stack. I
+            have years of expreince and many clients are happy with the projects
+            carried out.
           </p>
 
           <a download="" href={CV} className="button button--flex">

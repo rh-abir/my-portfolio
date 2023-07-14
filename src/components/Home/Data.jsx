@@ -52,9 +52,9 @@ const Date = () => {
             fill="#EBA352"
           ></path>
         </svg>
-        <h3 className="home__subtitle">Visual Designer</h3>
+        <h3 className="home__subtitle">MERN stack web Developer </h3>
         <p className="home__description">
-          I am creative designer based in New York, and I am very passionate and
+          I am front end and MERN stack web developer. I am very passionate and
           dedicated to my work.
         </p>
         <a href="#contact" className="button button--flex">
