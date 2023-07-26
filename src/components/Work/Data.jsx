@@ -8,31 +8,31 @@ export const projectsData = [
   {
     id: 1,
     image: work1,
-    title: "Web desing",
+    title: "Front end development ",
     category: "Front-end",
   },
   {
     id: 2,
     image: work2,
-    title: "App movil",
+    title: "MERN Stack development",
     category: "MERN Stack",
   },
   {
     id: 3,
     image: work3,
-    title: "Brand Design",
+    title: "MERN Stack development",
     category: "MERN Stack",
   },
   {
     id: 4,
     image: work4,
-    title: "App movil",
+    title: "MERN Stack development",
     category: "MERN Stack",
   },
   {
     id: 5,
     image: work5,
-    title: "Web design",
+    title: "Front end development",
     category: "Front-end",
   },
 ];

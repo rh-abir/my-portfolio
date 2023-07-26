@@ -10,7 +10,7 @@ const Social = () => {
       </a>
 
       <a
-        href=" https://www.instagram.com/rhabir71/"
+        href=" https://dribbble.com/abir69"
         className="home__social-icon"
         target="_blank"
       >
