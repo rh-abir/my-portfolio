@@ -8,7 +8,6 @@ import Qualification from "./components/Qualification/Qualification";
 import ScrollUp from "./components/ScrollUp/ScrollUp";
 import Services from "./components/Services/Services";
 import Skills from "./components/Skills/Skills";
-import Testimonials from "./components/Testimonials/Testimonials";
 import Work from "./components/Work/Work";
 
 function App() {
@@ -22,9 +21,7 @@ function App() {
         <Services></Services>
         <Qualification></Qualification>
         <Work></Work>
-        <Testimonials></Testimonials>
         <Contact></Contact>
-
       </main>
       <Footer></Footer>
       <ScrollUp></ScrollUp>
