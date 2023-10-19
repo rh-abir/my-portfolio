@@ -32,7 +32,7 @@
     flex-direction: column;
     align-items: center;
     font-size: var(--small-font-size);
-    color: var(--title-color-dark);
+    color: #ddd;
     font-weight: var(--font-medium);
     transition: .3s;
 }
