@@ -21,7 +21,7 @@
 }
 
 .home__social-icon:hover {
-    color: var(--title-color-dark);
+    color: rgb(224, 152, 18)
 }
 
 .home__title {

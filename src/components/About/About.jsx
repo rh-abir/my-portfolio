@@ -18,13 +18,13 @@ const About = () => {
           <Info></Info>
 
           <p className="about__description">
-            Frontend developer, I create web-site with <span className="text-keywords">MERN</span> stack. I
-            have years of expreince and many clients are happy with the projects
-            carried out.
+            Frontend developer, I create web-site with{" "}
+            <span className="text-keywords">MERN</span> stack. I have years of
+            expreince and many clients are happy with the projects carried out.
           </p>
 
           <a download="" href={CV} className="button button--flex">
-            Download CV
+            Download Resume
             <svg
               className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
