@@ -1,3 +1,5 @@
+import TypewriterTitle from "../Typewriter/TypewriterTitle";
+
 const Date = () => {
   return (
     <div className="home__data">
@@ -52,7 +54,9 @@ const Date = () => {
             fill="#EBA352"
           ></path>
         </svg>
-        <h3 className="home__subtitle">MERN stack web Developer </h3>
+        <h3 className="home__subtitle">
+          <TypewriterTitle />
+        </h3>
         <p className="home__description">
           I am front end and MERN stack web developer. I am very passionate and
           dedicated to my work.

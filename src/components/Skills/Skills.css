@@ -15,7 +15,9 @@
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     text-align: center;
+    color: #ddd;
     margin-bottom: var(--mb-1-5);
+    font-size: 20px;
 }
 
 .skills__box {
@@ -44,11 +46,14 @@
 .skills__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    line-height: 18px;
+    line-height: 20px;
+    color: #ddd;
 }
 
 .skills__level {
     font-size: var(--tiny-font-size);
+    color: #999;
+    font-size: 12px;
 }
 
 

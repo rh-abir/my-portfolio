@@ -136,7 +136,7 @@ img {
   font-size: 1.4rem;
 
   /* color: var(--title-color); */
-  color: var(--title-color-white);
+  color: #ddd;
   font-weight: var(--font-semi-bold);
 
 }
@@ -152,13 +152,14 @@ img {
 
 .secton__title {
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: #ddd;
 }
 
 .section__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
+  color: #d3d3d3;
 }
 
 .secton__title,

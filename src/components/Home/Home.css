@@ -53,9 +53,14 @@
     top: 1rem;
 }
 
+.Typewriter__wrapper {
+    color: #d5d5d5;
+}
+
 .home__description {
     max-width: 400px;
     margin-bottom: var(--mb-3);
+    color: #d5d5d5;
 }
 
 
@@ -107,7 +112,8 @@
 }
 
 .home__scroll-name {
-    color: var(--title-color);
+    /* color: var(--title-color); */
+    color: #999;
     font-weight: var(--font-medium);
     margin-right: var(--mb-0-25);
     margin-left: 2px;
@@ -115,7 +121,8 @@
 
 .home__scroll-arrow {
     font-size: 1.25rem;
-    color: var(--title-color);
+    /* color: var(--title-color); */
+    color: #999;
 }
 
 
@@ -145,6 +152,7 @@
     .home__description {
         max-width: inherit;
         margin-bottom: var(--mb-2-5);
+        color: #d5d5d5;
     }
 
     .home__img {
