@@ -1,5 +1,7 @@
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import "./Contact.css";
 
@@ -8,14 +10,21 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    console.log();
+    const name = e.target.name.value;
+    const email = e.target.email.value;
+    const textArea = e.target.project.value;
 
-    emailjs.sendForm(
-      "service_c9cxznr",
-      "template_bkmjd85",
-      form.current,
-      "p0qDA-pVxcZ-o5yeo"
-    );
-    e.target.reset();
+    if (name && email && textArea) {
+      emailjs.sendForm(
+        "service_c9cxznr",
+        "template_bkmjd85",
+        form.current,
+        "p0qDA-pVxcZ-o5yeo"
+      );
+      e.target.reset();
+      toast.success("successfully send email 👍");
+    }
   };
 
   return (
@@ -127,6 +136,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <ToastContainer position="top-center" autoClose={2000} />
     </section>
   );
 };
