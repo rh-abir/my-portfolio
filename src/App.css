@@ -189,13 +189,14 @@ img {
   border-radius: 1rem;
   font-weight: var(--font-medium);
   font-size: 16px;
-
-
+  transition: 0.4s
 }
 
 .button:hover {
   background-color: var(--title-color-dark);
-  box-shadow: 4px 4px 4px orange;
+  box-shadow: 4px 4px 4px var(--title-color);
+  transition-delay: 0.1s;
+
 }
 
 .button__icon {

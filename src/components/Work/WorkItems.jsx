@@ -1,5 +1,4 @@
 const WorkItems = ({ item }) => {
-  console.log(item);
   return (
     <div className="work__card">
       <img className="work__img" src={item.image} alt="" />

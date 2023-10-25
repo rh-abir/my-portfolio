@@ -10,6 +10,7 @@
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1-5);
+    color: rgb(208, 208, 208);
 }
 
 .contact__info {
@@ -27,8 +28,8 @@
 }
 
 .contact__card-icon {
+    color: rgb(208, 208, 208);
     font-size: 2rem;
-    color: var(--title-color);
     margin-bottom: var(--mb-0-25);
 
 }
@@ -73,6 +74,19 @@
     position: relative;
     margin-bottom: var(--mb-2);
     height: 4rem;
+}
+
+label.contact__form-tag {
+    background-color: rgb(12, 12, 12) !important;
+    border-radius: 20px 20px 0 0;
+    color: rgb(208, 208, 208);
+}
+
+
+textarea.contact__form-input,
+input.contact__form-input {
+    background-color: rgb(12, 12, 12);
+    /* color: black; */
 }
 
 .contact__form-input {

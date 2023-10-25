@@ -27,7 +27,7 @@ const Qualification = () => {
             Education
           </div>
 
-          <div
+          {/* <div
             className={
               toggleState === 2
                 ? "qualification__button qualification__active button--flex"
@@ -37,7 +37,7 @@ const Qualification = () => {
           >
             <i className="uil uil-briefcase-alt qualification__icon"></i>
             Experience
-          </div>
+          </div> */}
         </div>
 
         <div className="qualification__sections">
@@ -79,11 +79,10 @@ const Qualification = () => {
                   Bangladesh - Government Brojomohun College, Barishal
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2018 - present 
+                  <i className="uil uil-calendar-alt"></i> 2018 - present
                 </div>
               </div>
             </div>
-
           </div>
 
           <div
@@ -96,7 +95,7 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Upwork</h3>
-                
+
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2023 - Present
                 </div>
@@ -120,7 +119,7 @@ const Qualification = () => {
                 <h3 className="qualification__title">fiverr</h3>
 
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2023 - present 
+                  <i className="uil uil-calendar-alt"></i> 2023 - present
                 </div>
               </div>
             </div>

@@ -1,5 +1,5 @@
-import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { useRef } from "react";
 
 import "./Contact.css";
 
@@ -9,14 +9,13 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_c9cxznr",
-        "template_bkmjd85",
-        form.current,
-        "p0qDA-pVxcZ-o5yeo"
-      )
-    e.target.reset()
+    emailjs.sendForm(
+      "service_c9cxznr",
+      "template_bkmjd85",
+      form.current,
+      "p0qDA-pVxcZ-o5yeo"
+    );
+    e.target.reset();
   };
 
   return (
@@ -78,6 +77,7 @@ const Contact = () => {
                 name="name"
                 className="contact__form-input"
                 placeholder="Insert your name"
+                required
               />
             </div>
 
@@ -88,6 +88,7 @@ const Contact = () => {
                 name="email"
                 className="contact__form-input"
                 placeholder="Insert your email"
+                required
               />
             </div>
 
@@ -99,6 +100,7 @@ const Contact = () => {
                 rows="10"
                 className="contact__form-input"
                 placeholder="Write your project "
+                required
               ></textarea>
             </div>
 
