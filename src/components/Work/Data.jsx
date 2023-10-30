@@ -1,5 +1,5 @@
 import work1 from "../../assets/mern1.png";
-import work2 from "../../assets/work2.jpg";
+import work2 from "../../assets/rawjs1.png";
 import work3 from "../../assets/work3.jpg";
 import work4 from "../../assets/work4.jpg";
 import work5 from "../../assets/work5.jpg";
@@ -10,14 +10,27 @@ export const projectsData = [
     image: work1,
     title: "MERN Stack Project",
     category: "MERN Stack",
-    text: "1lorem impsum",
+    projectTitle: "Biomed",
+    dsc: "It is a task evolution platform where a user can come and complete a task and an instructor can create tasks",
+    liveLink: "https://biomed-3abc5.web.app",
+    gitClient: "https://github.com/rh-abir/biomed-client",
+    gitServer: "https://github.com/rh-abir/biomed-server",
+    point1: "Real-time Communication",
+    point2: "Integrated Video & Messaging Conferencing",
+    point3: "Role-based Dashboards",
   },
   {
     id: 2,
     image: work2,
-    title: "MERN Stack development",
-    category: "MERN Stack",
-    text: "2lorem impsum",
+    title: "Raw js Project",
+    category: "",
+    projectTitle: "Match Pin",
+    dsc: "It is a task evolution platform where a user can come and complete a task and an instructor can create tasks",
+    liveLink: "https://rh-abir.github.io/metch-pin",
+    gitClient: "https://github.com/rh-abir/metch-pin",
+    point1: "Real-time Communication",
+    point2: "Integrated Video & Messaging Conferencing",
+    point3: "Role-based Dashboards",
   },
   {
     id: 3,
@@ -51,8 +64,5 @@ export const projectsNav = [
   },
   {
     name: "Front-end",
-  },
-  {
-    name: "Raw JS",
   },
 ];

@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { BsGithub } from "react-icons/bs";
+import { CgLink } from "react-icons/cg";
 
 const WorkItems = ({ item }) => {
   const [toggleState, setToggleState] = useState(0);
@@ -31,51 +33,78 @@ const WorkItems = ({ item }) => {
             className="uil uil-times services__modal-close"
           ></i>
 
-          <h3 className="services__modal-title">{item.text}</h3>
-          <p className="services__modal-description">
-            Service with more than 3 years of experience. Providing quality work
-            to clients and companies.
-          </p>
+          <h3 className="services__modal-title">{item?.projectTitle}</h3>
+          <p className="services__modal-description">{item?.dsc}</p>
 
           <div className="project-link">
-            <button className="">Live line</button>
-            <button className="">github Client</button>
-            <button className="">github server</button>
+            {item?.liveLink && (
+              <a
+                href={`${item?.liveLink}`}
+                target="_blank"
+                className="link-button"
+                rel="noreferrer"
+              >
+                <CgLink />
+                Live
+              </a>
+            )}
+
+            {item.gitClient && (
+              <a
+                href={`${item?.gitClient}`}
+                target="_blank"
+                className="link-button"
+                rel="noreferrer"
+              >
+                <BsGithub />
+                Client
+              </a>
+            )}
+
+            {item.gitServer && (
+              <a
+                href={`${item?.gitServer}`}
+                target="_blank"
+                className="link-button"
+                rel="noreferrer"
+              >
+                <BsGithub />
+                Server
+              </a>
+            )}
           </div>
 
           <ul className="services__modal-services grid">
             <li className="services__modal-service">
               <i className="uil uil-check-circle services__modal-icon"></i>
-              <p className="services__modal-info">
-                I develop the user interface.
-              </p>
+              <p className="services__modal-info">{item?.point1}</p>
             </li>
 
             <li className="services__modal-service">
               <i className="uil uil-check-circle services__modal-icon"></i>
-              <p className="services__modal-info">Web page development.</p>
+              <p className="services__modal-info">{item?.point2}</p>
             </li>
 
             <li className="services__modal-service">
               <i className="uil uil-check-circle services__modal-icon"></i>
-              <p className="services__modal-info">
-                I create ux element interactions.
-              </p>
+              <p className="services__modal-info">{item?.point3}</p>
             </li>
 
-            <li className="services__modal-service">
-              <i className="uil uil-check-circle services__modal-icon"></i>
-              <p className="services__modal-info">
-                I position your company brand.
-              </p>
-            </li>
+            {item?.point4 && (
+              <li className="services__modal-service">
+                <i className="uil uil-check-circle services__modal-icon"></i>
+                <p className="services__modal-info">
+                  {item?.point4 && item?.point4}
+                </p>
+              </li>
+            )}
 
-            <li className="services__modal-service">
-              <i className="uil uil-check-circle services__modal-icon"></i>
-              <p className="services__modal-info">
-                Design and mockups of products for companies.
-              </p>
-            </li>
+            {item?.point5 && (
+              <li className="services__modal-service">
+                <i className="uil uil-check-circle services__modal-icon"></i>
+                <p className="services__modal-info">{item?.point5}</p>
+              </li>
+            )}
           </ul>
         </div>
       </div>
