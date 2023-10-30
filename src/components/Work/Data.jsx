@@ -1,4 +1,4 @@
-import work1 from "../../assets/work1.jpg";
+import work1 from "../../assets/mern1.png";
 import work2 from "../../assets/work2.jpg";
 import work3 from "../../assets/work3.jpg";
 import work4 from "../../assets/work4.jpg";
@@ -8,8 +8,8 @@ export const projectsData = [
   {
     id: 1,
     image: work1,
-    title: "Front end development ",
-    category: "Front-end",
+    title: "MERN Stack Project",
+    category: "MERN Stack",
     text: "1lorem impsum",
   },
   {
@@ -47,9 +47,12 @@ export const projectsNav = [
     name: "all",
   },
   {
+    name: "MERN Stack",
+  },
+  {
     name: "Front-end",
   },
   {
-    name: "MERN Stack",
+    name: "Raw JS",
   },
 ];

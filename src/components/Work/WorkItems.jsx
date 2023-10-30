@@ -11,7 +11,7 @@ const WorkItems = ({ item }) => {
 
   return (
     <>
-      <div className="work__card">
+      <div className="work__card" onClick={() => toggleTab(1)}>
         <img className="work__img" src={item.image} alt="" />
         <h3 className="work__title">{item.title}</h3>
         <span className="services__button" onClick={() => toggleTab(1)}>
