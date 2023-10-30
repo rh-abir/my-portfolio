@@ -37,6 +37,12 @@ const WorkItems = ({ item }) => {
             to clients and companies.
           </p>
 
+          <div className="project-link">
+            <button className="">Live line</button>
+            <button className="">github Client</button>
+            <button className="">github server</button>
+          </div>
+
           <ul className="services__modal-services grid">
             <li className="services__modal-service">
               <i className="uil uil-check-circle services__modal-icon"></i>

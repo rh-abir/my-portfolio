@@ -83,6 +83,8 @@
 
 
 
+.project-link {}
+
 /* For medium devices */
 @media screen and (max-width: 768px) {
     .work__container {
